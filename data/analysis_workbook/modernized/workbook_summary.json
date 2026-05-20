@@ -1,0 +1,161 @@
+{
+  "canonical_workbook": {
+    "original_legacy": "original_legacy/rational_locator_tables_apapaper2.xls",
+    "modernized_xlsx": "modernized/xlsx/rational_locator_tables_apapaper2.xlsx",
+    "sha256_original": "adbdce0118da5ebbc0366e7caf629aa804fbb35ee56751c43a9d12940ec6d96d",
+    "sha256_xlsx": "a2301b60ce99398769c5f7ce6c6ca1e500b333a6f0c03b30e339482759edd01e",
+    "note": "APAPAPER2.xls is the most complete local workbook: it contains all APAPAPER.xls sheets plus an additional summary sheet."
+  },
+  "sheets": [
+    {
+      "sheet": "Sheet1",
+      "csv_values": "modernized/csv/Sheet1_values.csv",
+      "max_row": 31,
+      "max_column": 8,
+      "nonempty_cells": 158,
+      "formula_cells": 46,
+      "sha256_csv": "0bbbbd0ceaef8315078ec864ee9be1ab425b8fc595952d1c3fa91c362a6b430a"
+    },
+    {
+      "sheet": "A",
+      "csv_values": "modernized/csv/A_values.csv",
+      "max_row": 371,
+      "max_column": 256,
+      "nonempty_cells": 1139,
+      "formula_cells": 189,
+      "sha256_csv": "8990153936c8cda65d7ba0188bae5b9da29fd3ab7ad3853312b4cf0c6fec7c2d"
+    },
+    {
+      "sheet": "B",
+      "csv_values": "modernized/csv/B_values.csv",
+      "max_row": 24,
+      "max_column": 13,
+      "nonempty_cells": 77,
+      "formula_cells": 30,
+      "sha256_csv": "420b29364c3b50da652abe8362bd4a88c78de9a694689f3c254616bda8920e10"
+    },
+    {
+      "sheet": "C",
+      "csv_values": "modernized/csv/C_values.csv",
+      "max_row": 21,
+      "max_column": 13,
+      "nonempty_cells": 64,
+      "formula_cells": 12,
+      "sha256_csv": "068dec4931bb095f5e70be4f98048a83d582c240bb5dc267ac145e95cd72400a"
+    },
+    {
+      "sheet": "D",
+      "csv_values": "modernized/csv/D_values.csv",
+      "max_row": 44,
+      "max_column": 10,
+      "nonempty_cells": 200,
+      "formula_cells": 28,
+      "sha256_csv": "c6406367e3a853b84795cc06bb5cb8b5282c4af4d47b292da3097e3e0399bfe8"
+    },
+    {
+      "sheet": "E",
+      "csv_values": "modernized/csv/E_values.csv",
+      "max_row": 17,
+      "max_column": 15,
+      "nonempty_cells": 72,
+      "formula_cells": 0,
+      "sha256_csv": "57a8bdf46709817201d35661dd0fd182092b5e8ec42a2ddb4a7f6a48884ebbb4"
+    },
+    {
+      "sheet": "F",
+      "csv_values": "modernized/csv/F_values.csv",
+      "max_row": 35,
+      "max_column": 9,
+      "nonempty_cells": 107,
+      "formula_cells": 14,
+      "sha256_csv": "24f87aaab223d308d5292639c8a24f1e66949755bd22364e783b267fade81797"
+    },
+    {
+      "sheet": "G",
+      "csv_values": "modernized/csv/G_values.csv",
+      "max_row": 22,
+      "max_column": 8,
+      "nonempty_cells": 62,
+      "formula_cells": 0,
+      "sha256_csv": "f9a210e510485ab21f041d1f2cd511d410bde7b5ae289d0f318beaa6825a2fc0"
+    },
+    {
+      "sheet": "H",
+      "csv_values": "modernized/csv/H_values.csv",
+      "max_row": 1,
+      "max_column": 1,
+      "nonempty_cells": 1,
+      "formula_cells": 0,
+      "sha256_csv": "fb627239706a8aa3a4a6d4a304655383874bfd6bf0dfd5bd8b146b29948e5696"
+    },
+    {
+      "sheet": "I",
+      "csv_values": "modernized/csv/I_values.csv",
+      "max_row": 7,
+      "max_column": 1,
+      "nonempty_cells": 4,
+      "formula_cells": 0,
+      "sha256_csv": "a9d0b55f106e1f03b84879c0cdfd6de1cc99e9387d4ed1a7538d1349ab37f3f0"
+    },
+    {
+      "sheet": "Graph 1",
+      "csv_values": "modernized/csv/Graph_1_values.csv",
+      "max_row": 1,
+      "max_column": 1,
+      "nonempty_cells": 0,
+      "formula_cells": 0,
+      "sha256_csv": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "source_file_review": [
+    {
+      "source_filename": "APAPAPER.doc",
+      "decision": "excluded_duplicate_legacy",
+      "reason": "misnamed Lotus worksheet with same table lineage; differences are sheet names, formula references, and numeric precision/rounding",
+      "size_bytes": 49602,
+      "sha256": "8e37ac56cbdb234c758c8b0c904acec48a0ada11cd87a0a5d87cb739eaf61c7f"
+    },
+    {
+      "source_filename": "APAPAPER.xls",
+      "decision": "excluded_duplicate",
+      "reason": "same workbook as APAPAPER2.xls except APAPAPER2 has an added summary sheet",
+      "size_bytes": 67072,
+      "sha256": "bbdd59331e4ef11a44e81dcb379c22bb7dba2fe8118ec5699bd8a276ffa41bf0"
+    },
+    {
+      "source_filename": "APAPAPER2.xls",
+      "decision": "included",
+      "reason": "canonical complete Excel workbook",
+      "size_bytes": 86016,
+      "sha256": "adbdce0118da5ebbc0366e7caf629aa804fbb35ee56751c43a9d12940ec6d96d"
+    },
+    {
+      "source_filename": "doc-locator.pdf",
+      "decision": "excluded_manuscript",
+      "reason": "draft PDF, not data/code",
+      "size_bytes": 103956,
+      "sha256": "bda3e86a232f5a4512f0dafbf232bfda5c3d962d9893f987fdb11f81e0d116f6"
+    },
+    {
+      "source_filename": "locator-apa4.doc",
+      "decision": "excluded_manuscript",
+      "reason": "Word manuscript draft, not data/code",
+      "size_bytes": 54784,
+      "sha256": "fb964cc4bc568544ffcb264fe0a12dbbf6fa4c2bc163e593fc24b78d44459f39"
+    },
+    {
+      "source_filename": "locator.letter3",
+      "decision": "excluded_correspondence",
+      "reason": "submission/correspondence, not data/code",
+      "size_bytes": 3584,
+      "sha256": "8f27cb734062d356e09e3982eee08915eb0bcb658cbf689d42bb51b23e2ed6be"
+    },
+    {
+      "source_filename": "locator.letter4",
+      "decision": "excluded_correspondence",
+      "reason": "submission/correspondence, not data/code",
+      "size_bytes": 3072,
+      "sha256": "0b32a56eb7d773611391c6488d95e7b4acdd611e308a130c8ff9b038243ded43"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+source_filename,decision,reason,size_bytes,sha256
+APAPAPER.doc,excluded_duplicate_legacy,"misnamed Lotus worksheet with same table lineage; differences are sheet names, formula references, and numeric precision/rounding",49602,8e37ac56cbdb234c758c8b0c904acec48a0ada11cd87a0a5d87cb739eaf61c7f
+APAPAPER.xls,excluded_duplicate,same workbook as APAPAPER2.xls except APAPAPER2 has an added summary sheet,67072,bbdd59331e4ef11a44e81dcb379c22bb7dba2fe8118ec5699bd8a276ffa41bf0
+APAPAPER2.xls,included,canonical complete Excel workbook,86016,adbdce0118da5ebbc0366e7caf629aa804fbb35ee56751c43a9d12940ec6d96d
+doc-locator.pdf,excluded_manuscript,"draft PDF, not data/code",103956,bda3e86a232f5a4512f0dafbf232bfda5c3d962d9893f987fdb11f81e0d116f6
+locator-apa4.doc,excluded_manuscript,"Word manuscript draft, not data/code",54784,fb964cc4bc568544ffcb264fe0a12dbbf6fa4c2bc163e593fc24b78d44459f39
+locator.letter3,excluded_correspondence,"submission/correspondence, not data/code",3584,8f27cb734062d356e09e3982eee08915eb0bcb658cbf689d42bb51b23e2ed6be
+locator.letter4,excluded_correspondence,"submission/correspondence, not data/code",3072,0b32a56eb7d773611391c6488d95e7b4acdd611e308a130c8ff9b038243ded43
