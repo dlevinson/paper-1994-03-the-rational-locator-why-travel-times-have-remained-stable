@@ -1,6 +1,6 @@
 # Package Status: The Rational Locator: Why Travel Times Have Remained Stable
 
-Generated: 2026-05-20 15:23:47 AEST
+Generated: 2026-07-01 AEST
 
 ## Audit State
 
@@ -9,6 +9,7 @@ Generated: 2026-05-20 15:23:47 AEST
 - Upload action: `derived_only_candidate`
 - Packaging status: `ready_to_package_review`
 - Rights status: `likely_clear_with_provenance`
+- Repository license: CC BY 4.0 for repository-created documentation and derived data; paper PDF retained under original terms
 - Controlled access status: `none`
 - Human subjects status: `no`
 - Bibliographic citation: Levinson, David M., and Ajay Kumar. (1994). "The Rational Locator: Why Travel Times Have Remained Stable." Journal of the American Planning Association 60(3):319-332. https://doi.org/10.1080/01944369408975590

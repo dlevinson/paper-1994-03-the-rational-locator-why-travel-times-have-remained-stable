@@ -1,5 +1,11 @@
 # The Rational Locator: Why Travel Times Have Remained Stable
 
+## License
+
+Repository-created documentation and derived data are licensed under CC BY 4.0.
+The paper PDF under `paper/` is retained for local reference under its original
+publication terms.
+
 ## Contribution
 
 This paper explains why metropolitan commuting times can remain stable even as cities spread and trip distances increase. Comparing Washington household travel surveys from 1968 and 1987–88, it finds that faster travel and the mutual relocation of jobs and housing offset longer distances, supporting a rational-locator account of metropolitan adaptation.
